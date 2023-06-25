@@ -1,0 +1,4 @@
+#mati
+mongodb://localhost:27017
+docker run --name mongo_test -p 27017:27017 -d mongo
+docker run --name mongo_test -p 27017:27017 -d mongodb/mongodb-community-server:latest
